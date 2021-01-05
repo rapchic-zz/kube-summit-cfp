@@ -170,6 +170,7 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  box-shadow: 0 3px 6px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.1);
 }
 
 #header.header-scrolled,
@@ -203,7 +204,8 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  
+  max-height: 140px;
 }
 
 /*--------------------------------------------------------------
@@ -527,7 +529,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro h1 {
   color: #fff;
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 56px;
+  font-size: 48px;
+  font-weight: 600;
+  
+}
+
+#intro h2 span {
+  color: #f82249;
+}
+
+#intro h2 {
+  color: #fff;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 36px;
   font-weight: 600;
   
 }
@@ -543,7 +557,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro p {
   color: #ebebeb;
-  font-weight: 700;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
   font-size: 20px;
 }
 
@@ -631,6 +646,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
   padding: 12px 32px;
   border-radius: 50px;
+  
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
@@ -647,7 +663,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro .responsive {
   width: 100%;
-  max-width: 1200px;
+  max-width: 600px;
   height: auto;
 }
 
@@ -988,11 +1004,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 16px;
 }
 
-#track .track-item ul {
+#track .track-item table {
   
   font-style: italic;
   color: #0e1b4d;
   margin-bottom: 0;
+  font-family: "IBM Plex sans", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+
 }
 
 #track .track-item li {
